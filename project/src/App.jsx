@@ -16,7 +16,7 @@ import '../components/pages/nav/nav.css'
 function App() {
 
 
-  let nombre = 'Cuantame lo que haces' 
+
 
   return (
     <div>
