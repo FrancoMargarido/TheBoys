@@ -1,32 +1,22 @@
-import Nav from '../components/pages/nav/Nav.jsx'
-import Home from '../components/pages/home/Home'
-import Footer from '../components/pages/footer/Footer'
-import ItemListContainer from '../components/pages/items/ItemListContainer.jsx'
-
-
+import Footer from "./components/layout/footer/Footer";
+import Home from "./components/pages/home/Home";
+import Nav from "./components/layout/nav/Nav";
 
 /*=============== STYLES ===============*/
 
-
-import '../components/pages/footer/footer.css'
-import '../components/pages/home/home.css'
-import '../components/pages/nav/nav.css'
+import "./components/pages/home/home.css";
+import "./components/layout/footer/footer.css";
+import "./components/layout/nav/nav.css";
 
 
 function App() {
-
-
-
-
   return (
-    <div>
-      <Nav/>
-      <Home/> 
-      <Footer/>
-      {/* <ItemListContaine /> */}
-    </div>
-
-  )
+    <>
+      <Nav />
+      <Home />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
