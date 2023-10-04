@@ -1,3 +1,5 @@
+import React from "react";
+
 const Footer = ({ saludo }) => {
   return (
     <div className="footer">
@@ -5,7 +7,7 @@ const Footer = ({ saludo }) => {
         <div className="footer__content grid">
           <div className="footer__data">
             <h3 className="footer__title">Vought Company</h3>
-            <h6>{saludo} </h6>
+            <h6>{saludo}</h6>
             <p className="footer__description"></p>
             <div>
               <a
