@@ -1,48 +1,47 @@
 .home__background {
-    background-color: rgb(180, 31, 31);
+  background-color: rgb(180, 31, 31);
 }
 
 .home__img {
-position: absolute;
-top: 5;
-left: 0; 
-width: 100%;
-height: 100%; 
-object-fit: cover; 
-object-position: 33%; 
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 33%;
 }
 
 .home__container {
   position: relative;
   height: calc(100vh - var(--header-height));
   align-content: center;
-  row-gap: 3rem; 
+  row-gap: 3rem;
 }
 
-.home__data-subtitle, 
-.home__data-title, 
-.home__social-link, 
+.home__data-subtitle,
+.home__data-title,
+.home__social-link,
 .home__info {
-    translate: none;
-    rotate: none;
-    scale: none;
-    transform: translate(0px, 0px); 
-    opacity: 1;
-    font-family:  Mono, monospace;
-    color: #181818;
-    text-shadow: rgb(0, 0, 0) 7px 6px 1px; 
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate(0px, 0px);
+  opacity: 1;
+  font-family: Mono, monospace;
+  color: #181818;
+  text-shadow: rgb(0, 0, 0) 7px 6px 1px;
 }
 
-.home__data-title{
+.home__data-title {
   position: relative;
   bottom: 230px;
   right: 100px;
   font-weight: 700;
-  font-family: 'Martian Mono', monospace;  ;
+  font-family: "Martian Mono", monospace;
   color: #cfcfcf;
-  text-shadow: rgb(0, 0, 0) 0px 0px 0px; 
-  }
-  
+  text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+}
 
 .home__data-subtitle {
   display: block;
@@ -72,7 +71,7 @@ object-position: 33%;
   display: flex;
   padding: 1.5rem 1rem;
   align-items: center;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   position: absolute;
   right: 0;
   bottom: 1rem;
@@ -103,9 +102,8 @@ object-position: 33%;
   transform: var(--img-scale);
 }
 
-
-.home__data2{
-    align-self: flex-end;
+.home__data2 {
+  align-self: flex-end;
 }
 .home__data-title2 {
   font-size: var(--biggest-font-size);
@@ -114,3 +112,6 @@ object-position: 33%;
   color: #ffffff;
 }
 
+.product-card {
+  color: red;
+}

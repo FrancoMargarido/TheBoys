@@ -1,13 +1,13 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
-const Footer = ({ saludo }) => {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__container container grid">
         <div className="footer__content grid">
           <div className="footer__data">
             <h3 className="footer__title">Vought Company</h3>
-            <h6>{saludo}</h6>
             <p className="footer__description"></p>
             <div>
               <a

@@ -1,0 +1,11 @@
+.btn__counter {
+  background-color: transparent;
+  width: 25px;
+}
+
+.counter__btn {
+  background-color: transparent;
+  position: relative;
+  left: 5rem;
+  width: 175px;
+}

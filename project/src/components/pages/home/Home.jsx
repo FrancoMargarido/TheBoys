@@ -18,7 +18,8 @@ const Home = () => {
               Soon
             </a>
           </div>
-        </div>
+        </div>{" "}
+        *
       </section>
     </main>
   );
